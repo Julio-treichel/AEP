@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: Open Sans !important;
+    font-weight: 400 !important;
+}
+
+body{
+    background-color: rgb(209, 243, 198);
+   
+}
+
+
+
+.logo img{
+    width: 8%;
+    height: 8%;
+    margin-top: 20px;
+}
+
+.logo p{
+    font-size: 23px;
+    color: rgb(143, 224, 116);
+    font-size: 23px !important;
+    font-weight: 900 !important;
+    margin: 10px;
+}
+
+.card p{
+    margin: 0px;
+    font-size: 100% !important;
+    
+}
+
+#devs{
+    font-size: 13px !important;
+}
+
+.card{
+    position: absolute;
+    left: 32.5%;
+    background-color: aliceblue;
+    width: 35%;
+    height: 45%;
+    border-radius: 15px;
+    box-shadow:  5px 10px 10px 0 rgb(0, 0, 0, 0.4);
+    margin-bottom: 10%;
+    padding-bottom: 4%;
+}
+.veiculo{
+    width: 100%;
+    height: 297px;   
+}
+
+.botao{
+    width: 50%;
+    height: 10%;
+    left: 70px;
+    background-color: rgb(143, 224, 116);
+    border-radius: 5px;
+    border-color: rgb(143, 224, 116);
+    box-shadow:  5px 5px 5px 0 rgb(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+    border-radius: 15px;
+    outline: none;
+}
+
+button:hover{
+    background-color: rgb(109, 172, 73);
+    transition: 0.5s;
+}
+
+footer{
+    padding:  0px;
+    padding-left: 3%;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding-top:2%;
+    padding-bottom: 2%;   
+    position: fixed; 
+    width: 100%;
+    bottom: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+    margin-right: 25px;
+}
+
+footer a:hover{
+    color: rgb(178, 227, 47);
+}
+/* ----------------CSS motorCarro------------------- */
+.botaoMotor{
+    width: 20%;
+    height: 20%;
+    left: 20px;
+    background-color: rgb(143, 224, 116);
+    border-radius: 5px;
+    border-color: rgb(143, 224, 116);
+    box-shadow:  5px 5px 5px 0 rgb(0, 0, 0, 0.4);
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font: weight 400;;
+}
+
+.motorCarro p{
+    font-size: 20px;  
+}
+
+.motorCarro{
+    width: 100%;
+    height: 297px;   
+}
+/* ----------------CSS motorMoto------------------- */
+.botaoMotor{
+    width: 20%;
+    height: 20%;
+    left: 20px;
+    background-color: rgb(143, 224, 116);
+    border-radius: 5px;
+    border-color: rgb(143, 224, 116);
+    box-shadow:  5px 5px 5px 0 rgb(0, 0, 0, 0.4);
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    outline: none;
+    
+}
+
+.motorMoto{
+    font-size: 20px;
+    font-weight:400;  
+}
+
+.motorMoto{
+    width: 100%;
+    height: 297px;   
+}
+/* ----------------CSS combustivel------------------- */
+.veiculo {
+        width: 100%;
+        height: 297px;   
+}
+.veiculo p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight:400;
+    font-size: 20px;
+    margin: 20px;   
+}    
+    
+/* ----------------CSS desenvolvedores------------------- */
+.nomes p {
+    margin-bottom: 25px;
+    
+}
+
+#titulo {
+    color: rgb(143, 224, 116);
+    font: weight 400;
+}
+/* ----------------CSS Consumo------------------- */
+.consumo p{
+    margin-bottom: 10px;
+    
+}
+
+#titulo{
+    color: rgb(143, 224, 116);
+    font-weight:900;
+    font-weight: 600 !important;
+    margin-top: 20px;
+}
+.consumo{
+    width: 100%;
+    height: 297px;   
+    margin-bottom:6.3%;
+}
+
+.apresentarDados p{
+   display: inline-block;
+   margin-left: 50px;
+   color: black;
+   font-size: 20px;
+  
+}
+#resultado{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:900 !important;
+    color: red;
+    font-size: 70% !important;
+}
+
+#emissao{
+    font-weight: 600 !important;
+    color: rgb(143, 224, 116);
+    font-weight:900;
+}
+
+.mensagem{
+    border: solid 2px ;
+    border-radius: 10px;
+    width: 73%;
+    height: 38%;
+    border-color: rgb(143, 224, 116);
+}
+/* ----------------CSS SOBRE------------------ */
+#ideais {
+   margin-bottom: 20px;
+}
+
+#tituloIdeais{
+    color: rgb(143, 224, 116);
+    font-weight: 400 !important;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+
+}
+

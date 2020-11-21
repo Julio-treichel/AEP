@@ -7,28 +7,41 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='/style/style.css'>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <script>
+        function getlink(param){
+            var q = location.search.slice(1);
+            var l = 'http://127.0.0.1:5500/public/consumo.html?'+ q + `&combustivel=${param}`
+            
+            console.log(l)
+            //window.location.replace(l)
+            window.location.href=l
+
+        }
+  </script>
+
 </head>
+
 <body >
-    <div class="container">         
-        
+    <div class="container">     
+            
         <div class="logo" align="center">
             <a href="/public/index.html"><img src="/img/logo.png"  alt=""></a>
             <p align="center">
                 COlculator
             </p>
         </div>    
-        
+
         <div class="veiculo" align="center">
             <div class="card">
                 <p>
-                    Selecione um veículo
+                    Escolha o combustível do seu veículo
                 </p>    
-                
-                <a href="/public/motorMoto.html?veiculo=moto"><button class="botao">Moto</button></a><br>
-                <a href="/public/motorCarro.html?veiculo=carro"><button class="botao">Carro</button></a> <br>
+                <a href="#"><button class="botao" onclick="getlink('etanol')">Etanol</button></a><br>
+                <a href="#"><button class="botao" onclick="getlink('gasolina')">Gasolina</button></a> <br>
             </div>   
         </div>
-      
+        
         <footer>
             <a href="/public/desenvolvedores.html">Desenvolvedores</a>
             <a href="/public/sobre.html">Sobre</a>
@@ -36,5 +49,5 @@
            
     </div> 
 </body>
-<script src="/src/index.js"></script>
+<script src='/src/index.js'></script
 </html>
